@@ -1,0 +1,107 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 175%;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.menu_1{
+    background: #757474;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+    float: left;   
+}
+.menu_2{
+    background: #757474;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+    float: left;  
+}
+.menu_3{
+    background: #757474;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+    float: left; 
+}
+
+        /****** DESKTOP ******/
+        @media(min-width: 992px){
+            .menu_1{
+                width: 30%;
+            }
+            .menu_2{
+                width: 30% 
+            }
+            .menu_3{
+                width: 30% 
+            }
+        }
+
+        /****** TABLET ******/
+        @media(min-width: 768px) and (max-width: 991px){
+            .menu_1{
+                width: 46%;
+            }
+            .menu_2{
+                width: 46% 
+            }
+            .menu_3{
+                width: 95% 
+            }
+        }
+
+        /****** MOBILE ******/
+        @media(max-width: 767px){
+            .menu_1{
+                width: 96%;
+            }
+            .menu_2{
+                width: 96%
+                
+            }
+            .menu_3{
+                width: 96% 
+            }
+        }
+
+h2{
+    line-height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 175%;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0;
+    float: right;  
+}
+.chiken{
+    background: #cf7474;
+}
+.beef{
+    background: #d62424;
+}
+.sushi{
+    background: #f7e274;
+}
+.text{
+    clear: right;
+
+    font-size: 125%;
+    padding: 15px;
+    margin: 0;
+}
