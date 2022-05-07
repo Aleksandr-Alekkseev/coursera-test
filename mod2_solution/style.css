@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -6,7 +9,7 @@ h1{
     text-align: center;
     margin-bottom: 75px;
 }
-.wrapper{
+.row{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -15,12 +18,14 @@ h1{
 }
 
 .menu_1{
-    background: #757474;
+    background-color: #757474;
     border: 1px solid black;
     margin-bottom: 20px;
     margin-right: 20px;
 
-    float: left;   
+
+    float: left;
+    position: relative;   
 }
 .menu_2{
     background: #757474;
@@ -28,7 +33,8 @@ h1{
     margin-bottom: 20px;
     margin-right: 20px;
 
-    float: left;  
+    float: left;
+    position: relative;   
 }
 .menu_3{
     background: #757474;
@@ -36,7 +42,8 @@ h1{
     margin-bottom: 20px;
     margin-right: 20px;
 
-    float: left; 
+    float: left;
+    position: relative;  
 }
 
         /****** DESKTOP ******/
